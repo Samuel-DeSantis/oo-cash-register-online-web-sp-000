@@ -12,9 +12,7 @@ class CashRegister
     @title = title
     @price = price
     @quantity = quantity
-
     @quantity.times { @items << @title }
-
     @total += @price * @quantity
   end
 
@@ -38,5 +36,4 @@ class CashRegister
       end
     end
   end
-
 end
