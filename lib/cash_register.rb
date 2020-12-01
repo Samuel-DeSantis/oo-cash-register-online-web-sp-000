@@ -29,7 +29,7 @@ class CashRegister
   end
 
   def void_last_transaction
-    if @items = []
+    if @items == []
       return 0.0
     else
       @quantity.times do
